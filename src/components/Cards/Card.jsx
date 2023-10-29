@@ -13,21 +13,21 @@ function Card({
   link = "/",
 }) {
   return (
-    <div class="max-w-sm rounded-lg overflow-hidden shadow-xl cursor-pointer">
+    <div className="max-w-sm rounded-lg overflow-hidden shadow-xl cursor-pointer">
       <Link to={link} target="_blank">
-        <img class="w-full h-64" src={imgSource} alt="Image" />
-        <div class="px-6 py-4">
-          <div class="font-bold text-xl mb-2">{projectName}</div>
-          <p class="text-gray-700 text-base">{projectDescription}</p>
+        <img className="w-full h-64" src={imgSource} alt="Image" />
+        <div className="px-6 py-4">
+          <div className="font-bold text-xl mb-2">{projectName}</div>
+          <p className="text-gray-700 text-base">{projectDescription}</p>
         </div>
-        <div class="px-6 pt-4 pb-2">
-          <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2 hover:text-indigo-500">
+        <div className="px-6 pt-4 pb-2">
+          <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2 hover:text-indigo-500">
             #{tag1}
           </span>
-          <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2 hover:text-indigo-500">
+          <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2 hover:text-indigo-500">
             #{tag2}
           </span>
-          <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2 hover:text-indigo-500">
+          <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2 hover:text-indigo-500">
             #{tag3}
           </span>
         </div>
